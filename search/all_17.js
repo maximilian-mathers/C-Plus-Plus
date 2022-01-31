@@ -1,7 +1,7 @@
 var searchData=
 [
   ['va_5flist_0',['va_list',['http://en.cppreference.com/w/cpp/utility/variadic/va_list.html',0,'']]],
-  ['val_1',['val',['../de/d9d/classdata__structures_1_1linked__list_1_1link.html#acf96f3a9a1d3b15268c38e8822300c11',1,'data_structures::linked_list::link::val()'],['../d5/d66/classrange__queries_1_1per_seg_tree_1_1_node.html#acc044f787c90b815773726d7fdfdaccf',1,'range_queries::perSegTree::Node::val()']]],
+  ['val_1',['val',['../de/d9d/classdata__structures_1_1linked__list_1_1link.html#acf96f3a9a1d3b15268c38e8822300c11',1,'data_structures::linked_list::link::val()'],['../d5/d66/classrange__queries_1_1per_seg_tree_1_1_node.html#acc044f787c90b815773726d7fdfdaccf',1,'range_queries::perSegTree::Node::val()'],['../db/d8b/struct_node.html#ab1d228a881cf7465b2d42ea135781427',1,'Node::val()']]],
   ['valarray_2',['valarray',['http://en.cppreference.com/w/cpp/numeric/valarray.html',0,'std']]],
   ['valarray_3c_20double_20_3e_3',['valarray&lt; double &gt;',['http://en.cppreference.com/w/cpp/numeric/valarray.html',0,'std']]],
   ['valid_4',['valid',['http://en.cppreference.com/w/cpp/thread/future/valid.html',0,'std::future::valid()'],['http://en.cppreference.com/w/cpp/thread/packaged_task/valid.html',0,'std::packaged_task::valid()'],['http://en.cppreference.com/w/cpp/thread/shared_future/valid.html',0,'std::shared_future::valid()']]],

@@ -38,8 +38,8 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="60,-232.5 60,-251.5 100,-251.5 100,-232.5 60,-232.5"/>
+<g id="a_node3"><a xlink:href="../../db/d8b/struct_node.html" target="_top" xlink:title="for assert">
+<polygon fill="white" stroke="black" points="60,-232.5 60,-251.5 100,-251.5 100,-232.5 60,-232.5"/>
 <text text-anchor="middle" x="80" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">Node</text>
 </a>
 </g>

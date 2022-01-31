@@ -250,13 +250,14 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">   52</span>            curr = <a class="code hl_variable" href="../../dd/d1c/classhash__chain.html#ae8457d13620497fa2046ac566252c4b0">head</a>[<a class="code hl_function" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>];</div>
 <div class="line"><span class="lineno">   53</span>        } <span class="keywordflow">else</span> {</div>
 <div class="line"><span class="lineno">   54</span>            curr = <a class="code hl_variable" href="../../dd/d1c/classhash__chain.html#ae8457d13620497fa2046ac566252c4b0">head</a>[<a class="code hl_function" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>];</div>
-<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">while</span> (curr-&gt;next) curr = curr-&gt;next;</div>
-<div class="line"><span class="lineno">   56</span>            curr-&gt;next = temp;</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">while</span> (curr-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>) curr = curr-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>;</div>
+<div class="line"><span class="lineno">   56</span>            curr-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a> = temp;</div>
 <div class="line"><span class="lineno">   57</span>        }</div>
 <div class="line"><span class="lineno">   58</span>    }</div>
 <div class="ttc" id="ahash__search_8cpp_html_a566eaf0ffafd50bc61e644561fd27001"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a></div><div class="ttdeci">int h(int key)</div><div class="ttdef"><b>Definition:</b> hash_search.cpp:45</div></div>
 <div class="ttc" id="ashared_ptr_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr&lt; Node &gt;</a></div></div>
-<div class="ttc" id="astruct_node_html"><div class="ttname"><a href="../../db/d8b/struct_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> linkedlist_implentation_usingarray.cpp:14</div></div>
+<div class="ttc" id="astruct_node_html"><div class="ttname"><a href="../../db/d8b/struct_node.html">Node</a></div><div class="ttdoc">for assert</div><div class="ttdef"><b>Definition:</b> linked_list_find_middle.cpp:14</div></div>
+<div class="ttc" id="astruct_node_html_ac04749ecfcee79224cfbfa0d9c777902"><div class="ttname"><a href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">Node::next</a></div><div class="ttdeci">Node * next</div><div class="ttdoc">forward reference</div><div class="ttdef"><b>Definition:</b> linked_list_find_middle.cpp:15</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -299,9 +300,9 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">   69</span>            } <span class="keywordflow">else</span> {</div>
 <div class="line"><span class="lineno">   70</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Key &quot;</span> &lt;&lt; i &lt;&lt; <span class="stringliteral">&quot; has values = &quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><span class="lineno">   71</span>                temp = <a class="code hl_variable" href="../../dd/d1c/classhash__chain.html#ae8457d13620497fa2046ac566252c4b0">head</a>[i];</div>
-<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">while</span> (temp-&gt;next) {</div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">while</span> (temp-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>) {</div>
 <div class="line"><span class="lineno">   73</span>                    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; temp-&gt;data &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><span class="lineno">   74</span>                    temp = temp-&gt;next;</div>
+<div class="line"><span class="lineno">   74</span>                    temp = temp-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>;</div>
 <div class="line"><span class="lineno">   75</span>                }</div>
 <div class="line"><span class="lineno">   76</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; temp-&gt;data;</div>
 <div class="line"><span class="lineno">   77</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
@@ -373,9 +374,9 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  107</span>        }</div>
 <div class="line"><span class="lineno">  108</span> </div>
 <div class="line"><span class="lineno">  109</span>        <span class="comment">// scan for data value</span></div>
-<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">while</span> (temp-&gt;data != x &amp;&amp; temp-&gt;next) temp = temp-&gt;next;</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">while</span> (temp-&gt;data != x &amp;&amp; temp-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>) temp = temp-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>;</div>
 <div class="line"><span class="lineno">  111</span> </div>
-<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">if</span> (temp-&gt;next) {</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">if</span> (temp-&gt;<a class="code hl_variable" href="../../db/d8b/struct_node.html#ac04749ecfcee79224cfbfa0d9c777902">next</a>) {</div>
 <div class="line"><span class="lineno">  113</span>            <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Element found&quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><span class="lineno">  114</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  115</span>        }</div>
